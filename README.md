@@ -1,37 +1,39 @@
-# Event Ticketing Site
+# Sudoku Solver
 
 ## Overview
 
-This project is a dynamic Event Ticketing website developed to facilitate user authentication, event listing, and ticket booking. The application is built using Java, JSP, and HTML/CSS, ensuring a responsive and engaging user interface with custom styles and interactive elements.
+This project is a dynamic Sudoku Solver developed using JavaScript, HTML, and CSS. It features an interactive interface where users can generate and solve Sudoku puzzles of varying difficulties. The application uses AJAX to fetch puzzles and implements an efficient backtracking algorithm to solve them in real-time.
 
 ## Features
 
-- **User Authentication**: Secure login and registration system.
-- **Event Listing**: Display of upcoming events with details.
-- **Ticket Booking**: Users can book tickets for events.
-- **Responsive Design**: Mobile-friendly layout using custom CSS and Bootstrap.
-- **Interactive Elements**: Engaging user interface with interactive elements.
+- **Puzzle Generation**: Fetches new Sudoku puzzles with different difficulty levels (easy, medium, hard, random).
+- **Real-time Solving**: Utilizes a backtracking algorithm to solve puzzles interactively.
+- **Responsive Design**: Ensures usability across different devices and screen sizes using Bootstrap.
+- **User-friendly Interface**: Highlights pre-filled cells in red and solved cells in green for better visualization.
 
 ## Project Structure
 
-- **src/main/java**: Contains Java source files.
-- **webapp**: Contains web application resources including HTML, JSP, CSS, JavaScript, and images.
+- **index.html**: Main interface of the Sudoku Solver.
+- **style.css**: Custom styles for the Sudoku grid and buttons.
+- **script.js**: Contains the logic for fetching puzzles, solving them, and updating the UI.
 
 ## Setup
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/event-ticketing-site.git
+    git clone https://github.com/shreyasaini003/Sudoku-Solver.git
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd event-ticketing-site
+    cd sudoku-solver
     ```
-3. **Build the project** using your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse) or using Maven:
-    ```bash
-    mvn clean install
-    ```
-4. **Deploy the project** on a web server (e.g., Apache Tomcat).
+3. **Open index.html** in your web browser to start using the Sudoku Solver.
+
+## Usage
+
+1. **Open the application** in your web browser.
+2. **Generate a new puzzle** by clicking the "Get New Puzzle" button.
+3. **Solve the puzzle** by clicking the "Solve" button.
 
 ## Contribution
 
