@@ -21,7 +21,7 @@ This project is a dynamic Event Ticketing website developed to facilitate user a
 
 1. **Clone the repository**:
     ```bash
-    git clone [https://github.com/yourusername/event-ticketing-site.git](https://github.com/shreyasaini003/EventTicketingSite)
+    git clone https://github.com/yourusername/event-ticketing-site.git
     ```
 2. **Navigate to the project directory**:
     ```bash
